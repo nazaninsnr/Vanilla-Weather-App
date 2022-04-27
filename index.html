@@ -15,67 +15,69 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <div class="row">
-          <div class="col-md-4">
-            <h1>Tehran</h1>
-            <h2>Today, Oct 18 5:10</h2>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="overview">
+                <h1>Tehran</h1>
+                <h2>Today, Oct 18 5:10</h2>
+              </div>
+            </div>
+            <div class="col-md-6 search-box">
+              <form action=""></form>
+            </div>
+            <div class="col-md-2 search-button">Search</div>
           </div>
-          <div class="col-md-6">search</div>
-          <div class="col-md-2">search button</div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="row">
-              <img src="images/sun.png" alt="" style="max-width: 80px" />
+          <div class="row">
+            <div class="col-md-8 weather-desc">
+              <div class="row">
+                <img src="images/sun.png" alt="" />
+              </div>
+              <div class="row">
+                <p class="desc">Sunny</p>
+              </div>
             </div>
-            <div class="row">Sunny</div>
-          </div>
-          <div class="col-md-6">23°</div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="row">
-              <img src="images/sun.png" alt="" style="max-width: 80px" />
-            </div>
-            <div class="row">
-              <p>Wed</p>
-            </div>
-            <div class="row">
-              <p>14° 5°</p>
+            <div class="col-md-4">
+              <span class="weather-temp">23°</span>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="row">
-              <img src="images/sun.png" alt="" style="max-width: 80px" />
+          <div class="row weekdays">
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <img src="images/sun.png" alt="" class="icon" />
+                </li>
+                <li class="days">Wed</li>
+                <li>14° 5°</li>
+              </ul>
             </div>
-            <div class="row">
-              <p>Thu</p>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <img src="images/sun.png" alt="" class="icon" />
+                </li>
+                <li class="days">Thu</li>
+                <li>12° 3°</li>
+              </ul>
             </div>
-            <div class="row">
-              <p>12° 3°</p>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <img src="images/sun.png" alt="" class="icon" />
+                </li>
+                <li class="days">Fri</li>
+                <li>15° 4°</li>
+              </ul>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="row">
-              <img src="images/sun.png" alt="" style="max-width: 80px" />
-            </div>
-            <div class="row">
-              <p>Fri</p>
-            </div>
-            <div class="row">
-              <p>15° 4°</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="row">
-              <img src="images/sun.png" alt="" style="max-width: 80px" />
-            </div>
-            <div class="row">
-              <p>Sat</p>
-            </div>
-            <div class="row">
-              <p>17° 7°</p>
+            <div class="col-md-3">
+              <ul>
+                <li>
+                  <img src="images/sun.png" alt="" class="icon" />
+                </li>
+                <li class="days">Sat</li>
+                <li>17° 7°</li>
+              </ul>
             </div>
           </div>
         </div>
