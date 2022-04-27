@@ -43,6 +43,7 @@ li {
 }
 
 .overview {
+  margin-left: 15px;
   margin-bottom: 50px;
 }
 
@@ -65,9 +66,13 @@ li {
   text-align: center;
 }
 
+.space {
+    margin-bottom: 25px;
+}
+
 .weather-desc img {
   display: inline-block;
-  margin: -20px 0 0px 50px;
+  margin: -20px 0 0 50px;
   max-width: 100px;
   text-align: center;
 }
@@ -91,6 +96,7 @@ li {
   background: #83bd75;
   border-radius: 50px;
   margin: 10px auto 0;
+  max-height: 550px;
   max-width: 550px;
   padding: 10px 5px 5px;
 }
@@ -100,5 +106,9 @@ li {
 }
 
 .days {
-    font-size: 12px;
+  font-size: 12px;
+}
+
+.temperature {
+    opacity: 70%;
 }
