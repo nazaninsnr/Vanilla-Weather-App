@@ -82,6 +82,7 @@ li {
   font-size: 36px;
   margin-left: 35px;
   line-height: 1;
+  text-transform: capitalize;
 }
 
 .weather-temp {

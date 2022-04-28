@@ -10,6 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -20,7 +21,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="overview">
-                <h1>Tehran</h1>
+                <h1 id="city"></h1>
                 <h2>Today, Oct 18 5:10</h2>
               </div>
             </div>
@@ -35,11 +36,11 @@
                 <img src="images/sun.png" alt="" />
               </div>
               <div class="row">
-                <p class="desc">Sunny</p>
+                <p class="desc" id="description"></p>
               </div>
             </div>
             <div class="col-md-4">
-              <span class="weather-temp">23°</span>
+              <span class="weather-temp" id="temperature"></span>
             </div>
           </div>
           <div class="row weekdays">
