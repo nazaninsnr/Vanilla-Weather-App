@@ -78,7 +78,7 @@ li {
 
 .weather-desc img {
   display: inline-block;
-  margin: -20px 0 0 45px;
+  margin: -20px 0 0 30px;
   max-width: 100px;
   text-align: center;
 }
@@ -99,7 +99,7 @@ li {
   margin-left: 55px;
   padding: 0;
   position: absolute;
-  top: 46px;
+  top: 48px;
   right: 32px;
 }
 
