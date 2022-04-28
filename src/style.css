@@ -17,7 +17,7 @@ h3 {
   font-size: 15px;
 }
 
-h3 span{
+h3 span {
   color: #83bd75;
 }
 
@@ -92,6 +92,28 @@ li {
 
 .desc:first-letter {
   text-transform: capitalize;
+}
+
+#units {
+  font-size: 12px;
+  margin-left: 55px;
+  padding: 0;
+  position: absolute;
+  top: 46px;
+  right: 32px;
+}
+
+#units hr {
+  margin: 0;
+  padding: 0;
+}
+
+#units a {
+  text-decoration: none;
+}
+
+.position {
+  position: relative;
 }
 
 .weather-temp {
