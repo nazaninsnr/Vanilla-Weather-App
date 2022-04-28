@@ -67,7 +67,7 @@ li {
 }
 
 .space {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .weather-desc img {
@@ -82,6 +82,9 @@ li {
   font-size: 36px;
   margin-left: 35px;
   line-height: 1;
+}
+
+.desc:first-letter {
   text-transform: capitalize;
 }
 
@@ -111,5 +114,5 @@ li {
 }
 
 .temperature {
-    opacity: 70%;
+  opacity: 70%;
 }
