@@ -24,12 +24,14 @@ function formateDate(timestamp) {
 function displayTemperature(response) {
   let cityElement = document.querySelector("#city");
   let dateElement = document.querySelector("#date");
+  let windElement = document.querySelector("#wind");
   let iconElement = document.querySelector("#icon");
   let descriptionElement = document.querySelector("#description");
   let temperatureElement = document.querySelector("#temperature");
 
   cityElement.innerHTML = response.data.name;
   dateElement.innerHTML = formateDate(response.data.dt * 1000);
+  windElement.innerHTML = `${response.data.wind.speed}km/h`;
   iconElement.setAttribute(
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
