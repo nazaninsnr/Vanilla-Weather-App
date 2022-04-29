@@ -34,11 +34,21 @@
             </div>
             <div class="col-md-6">
               <form id="search-form">
-                <input type="search" class="form-control search-box" id="city-input" autocomplete="off" />
+                <input
+                  type="search"
+                  class="form-control search-box"
+                  id="city-input"
+                  autocomplete="off"
+                />
               </form>
             </div>
             <div class="col-md-2">
-              <input type="submit" value="Search" class="search-button" id="submit"/>
+              <input
+                type="submit"
+                value="Search"
+                class="search-button"
+                id="submit"
+              />
             </div>
           </div>
           <div class="row space">
@@ -52,10 +62,10 @@
             </div>
             <div class="col-md-4 position">
               <span class="weather-temp" id="temperature"></span>
-              <span id="units"
-                >°C
+              <span id="units">
+                <a href="#" id="celsius-link" class="active">°C</a>
                 <hr />
-                <a href="#">°F</a>
+                <a href="#" id="fahrenheit-link">°F</a>
               </span>
             </div>
           </div>

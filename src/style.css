@@ -115,6 +115,10 @@ li {
   text-decoration: none;
 }
 
+#units .active  {
+  color: rgb(33, 33, 33);
+}
+
 .position {
   position: relative;
 }
