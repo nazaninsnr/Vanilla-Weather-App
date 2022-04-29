@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  font-family: 'Itim', cursive;
+  font-family: "Itim", cursive;
 }
 
 h1,
@@ -50,7 +50,7 @@ li {
 }
 
 .overview {
-  margin-left: 35px;
+  margin-left: 20px;
   margin-bottom: 50px;
 }
 
@@ -81,7 +81,7 @@ li {
 
 .weather-desc img {
   display: inline-block;
-  margin: -20px 0 0 30px;
+  margin: -20px 0 0 20px;
   max-width: 100px;
   text-align: center;
 }
@@ -89,7 +89,7 @@ li {
 .desc {
   color: #949494;
   font-size: 36px;
-  margin-left: 35px;
+  margin-left: 20px;
   line-height: 1;
 }
 
@@ -115,7 +115,7 @@ li {
   text-decoration: none;
 }
 
-#units .active  {
+#units .active {
   color: rgb(33, 33, 33);
 }
 
