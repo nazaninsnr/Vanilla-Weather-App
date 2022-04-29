@@ -11,6 +11,12 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -26,10 +32,14 @@
                 <h3>Wind: <span id="wind"></span></h3>
               </div>
             </div>
-            <div class="col-md-6 search-box">
-              <form action=""></form>
+            <div class="col-md-6">
+              <form id="search-form">
+                <input type="search" class="form-control search-box" id="city-input" autocomplete="off" />
+              </form>
             </div>
-            <div class="col-md-2 search-button">Search</div>
+            <div class="col-md-2">
+              <input type="submit" value="Search" class="search-button" id="submit"/>
+            </div>
           </div>
           <div class="row space">
             <div class="col-md-8 weather-desc">

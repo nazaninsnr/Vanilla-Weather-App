@@ -1,5 +1,6 @@
 body {
   box-sizing: border-box;
+  font-family: 'Itim', cursive;
 }
 
 h1,
@@ -54,21 +55,23 @@ li {
 }
 
 .search-box {
-  background: #b4e197;
+  border: 1px solid #b4e197;
   border-radius: 18px;
-  margin: 0 12px 0 10px;
+  margin: 0 12px 0 20px;
   max-height: 50px;
-  max-width: 250px;
+  max-width: 255px;
+  padding: 14px 10px;
 }
 
 .search-button {
   background: #b4e197;
+  border: none;
   border-radius: 18px;
   color: white;
   font-size: 12px;
   max-height: 50px;
   max-width: 80px;
-  padding: 14px;
+  padding: 16px 12px;
   text-align: center;
 }
 
