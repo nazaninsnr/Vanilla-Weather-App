@@ -97,32 +97,6 @@ li {
   text-transform: capitalize;
 }
 
-#units {
-  font-size: 12px;
-  margin-left: 55px;
-  padding: 0;
-  position: absolute;
-  top: 48px;
-  right: 32px;
-}
-
-#units hr {
-  margin: 0;
-  padding: 0;
-}
-
-#units a {
-  text-decoration: none;
-}
-
-#units .active {
-  color: rgb(33, 33, 33);
-}
-
-.position {
-  position: relative;
-}
-
 .weather-temp {
   color: #555555;
   font-size: 90px;
