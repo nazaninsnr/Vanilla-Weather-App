@@ -17,6 +17,10 @@
       href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/e1cf203576.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -39,17 +43,15 @@
                   class="form-control search-box"
                   id="city-input"
                   autocomplete="off"
+                  placeholder="Search"
                   autofocus
                 />
               </form>
             </div>
             <div class="col-md-2">
-              <input
-                type="submit"
-                value="Search"
-                class="search-button"
-                id="submit"
-              />
+              <button type="submit" class="search-button" id="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
             </div>
           </div>
           <div class="row space">
